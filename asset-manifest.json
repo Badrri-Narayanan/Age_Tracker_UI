@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Age_Tracker_UI/static/css/main.073c9b0a.css",
+    "main.js": "/Age_Tracker_UI/static/js/main.e37074cf.js",
+    "static/js/787.16557e45.chunk.js": "/Age_Tracker_UI/static/js/787.16557e45.chunk.js",
+    "index.html": "/Age_Tracker_UI/index.html",
+    "main.073c9b0a.css.map": "/Age_Tracker_UI/static/css/main.073c9b0a.css.map",
+    "main.e37074cf.js.map": "/Age_Tracker_UI/static/js/main.e37074cf.js.map",
+    "787.16557e45.chunk.js.map": "/Age_Tracker_UI/static/js/787.16557e45.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.e37074cf.js"
+  ]
+}
