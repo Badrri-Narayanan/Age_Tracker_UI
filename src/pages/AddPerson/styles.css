@@ -1,0 +1,17 @@
+.add-new-person {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.inputs-container > div {
+    width: 300px;
+    margin: 10px;
+}
+
+.add-new-person > form > button {
+    width: 200px;
+    margin-left: 70px;
+}
