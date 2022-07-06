@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Age_Tracker_UI/static/css/main.aadad8c5.css",
-    "main.js": "/Age_Tracker_UI/static/js/main.eaaa2bb2.js",
+    "main.js": "/Age_Tracker_UI/static/js/main.1cfdc453.js",
     "static/js/787.16557e45.chunk.js": "/Age_Tracker_UI/static/js/787.16557e45.chunk.js",
     "index.html": "/Age_Tracker_UI/index.html",
     "main.aadad8c5.css.map": "/Age_Tracker_UI/static/css/main.aadad8c5.css.map",
-    "main.eaaa2bb2.js.map": "/Age_Tracker_UI/static/js/main.eaaa2bb2.js.map",
+    "main.1cfdc453.js.map": "/Age_Tracker_UI/static/js/main.1cfdc453.js.map",
     "787.16557e45.chunk.js.map": "/Age_Tracker_UI/static/js/787.16557e45.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.aadad8c5.css",
-    "static/js/main.eaaa2bb2.js"
+    "static/js/main.1cfdc453.js"
   ]
 }
