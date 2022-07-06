@@ -16,7 +16,6 @@ function AddPerson() {
     }
 
     const handleOnSubmit = () => {
-        setOpen(true)
         fetch('https://age-tracker-api.herokuapp.com/people/add', {
             method: 'POST',
             headers: {
@@ -27,14 +26,16 @@ function AddPerson() {
                 'date_of_birth': dateOfBirth && dateOfBirth.toISOString().split('T')[0]
             })
         })
-            .then(resp => resp.json())
+            .then(resp => resp.text())
             .then((response) => {
-                if (response.length) {
+                if (response) {
                     setResult(true)
                 }
             }).catch((err) => {
                 console.log(err)
                 setResult(false)
+            }).finally(() => {
+                setOpen(true)
             })
     }
 
