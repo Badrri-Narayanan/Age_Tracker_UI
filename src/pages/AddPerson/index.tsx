@@ -24,7 +24,7 @@ function AddPerson() {
             },
             body: JSON.stringify({
                 name,
-                'date_of_birth': dateOfBirth && dateOfBirth.toLocaleDateString('en-gb').replaceAll('/', '-')
+                'date_of_birth': dateOfBirth && dateOfBirth.toISOString().split("T")[0]
             })
         })
             .then(resp => resp.json())
