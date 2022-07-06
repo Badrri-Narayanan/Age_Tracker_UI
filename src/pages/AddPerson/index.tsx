@@ -24,7 +24,7 @@ function AddPerson() {
             },
             body: JSON.stringify({
                 name,
-                'date_of_birth': dateOfBirth && dateOfBirth.toISOString().split("T")[0]
+                'date_of_birth': dateOfBirth && dateOfBirth.toISOString().split('T')[0]
             })
         })
             .then(resp => resp.json())
