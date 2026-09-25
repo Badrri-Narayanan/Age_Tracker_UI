@@ -4,6 +4,7 @@ import { DatePicker, LocalizationProvider } from '@mui/x-date-pickers';
 import React, { useState } from 'react';
 import './styles.css';
 import ResultModal from '../../components/ResultModal';
+import { API_BASE_URL } from '../../config';
 
 function AddPerson() {
     const [name, setName] = useState('')
@@ -16,7 +17,7 @@ function AddPerson() {
     }
 
     const handleOnSubmit = () => {
-        fetch('https://age-tracker-api.herokuapp.com/people/add', {
+        fetch(`${API_BASE_URL}/people/add`, {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'

@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react'
 import InfoTable from '../../components/InfoTable'
 import { GlobalStore } from '../../store/store'
+import { API_BASE_URL } from '../../config'
 
 type ResponseRow = {
   id: number
@@ -24,7 +25,7 @@ function Home() {
 
   useEffect(() => {
     updateLoadingStatus(true)
-    fetch('https://age-tracker-api.herokuapp.com/people/all')
+    fetch(`${API_BASE_URL}/people/all`)
       .then((resp) => resp.json())
       .then((response) => {
         const rowList = response.map((i: ResponseRow) => ({
